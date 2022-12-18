@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="rJ71a4" name="LushUI" projectType="guiapp" useAppConfig="0"
+              addUsingNamespaceToJuceHeader="0" displaySplashScreen="1" jucerFormatVersion="1">
+  <MAINGROUP id="tbrzt0" name="LushUI">
+    <GROUP id="{88728932-1EFF-2FD6-E392-D3AC7AB181F2}" name="Source">
+      <FILE id="wbAYSc" name="Main.cpp" compile="1" resource="0" file="Source/Main.cpp"/>
+      <FILE id="FNw3PL" name="MainComponent.h" compile="0" resource="0" file="Source/MainComponent.h"/>
+      <FILE id="v9GrZv" name="MainComponent.cpp" compile="1" resource="0"
+            file="Source/MainComponent.cpp"/>
+    </GROUP>
+  </MAINGROUP>
+  <JUCEOPTIONS JUCE_STRICT_REFCOUNTEDPOINTER="1"/>
+  <EXPORTFORMATS>
+    <XCODE_MAC targetFolder="Builds/MacOSX">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug" targetName="LushUI"/>
+        <CONFIGURATION isDebug="0" name="Release" targetName="LushUI"/>
+      </CONFIGURATIONS>
+    </XCODE_MAC>
+  </EXPORTFORMATS>
+  <MODULES/>
+</JUCERPROJECT>
